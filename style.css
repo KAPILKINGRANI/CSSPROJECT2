@@ -1,0 +1,180 @@
+/* Root Elements */
+html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Times New Roman';
+}
+/* NAVBAR */
+li {
+    list-style: none;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+.logoname:hover ,li:hover{
+    background-color: #607d8b;
+    color: wheat;
+}
+nav {
+    display: inline-block;
+    width: 100%;
+    /* After Changes */
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    /* ============== */  
+}
+.logoname {
+    float: left;
+    display: flex;
+    padding: 10px;
+}
+.logoname li {
+    letter-spacing: 5px;
+    padding: 5px;
+}
+.navElements {
+    display: flex;
+    float: right;
+    padding:5px;
+    letter-spacing: 5px;
+}
+/* IMAGE SECTION */
+.responsive-image {
+    /* max width se x direction mai scale up hota hai  */
+    /* only width se y direction mai scale up hoga */
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+}
+.image {
+    position: relative;
+}
+.bottom-left {
+   position: absolute;
+   bottom: 2px;
+   left: 16px;
+   margin: 20px;
+   font-size: 35px;
+   letter-spacing: 5px;
+   color: black;
+   opacity: 0.7;
+   /* font-weight: bold; */
+}
+/* ABOUT SECTION */
+.about {
+    margin:30px 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.aImage {
+    max-width: 100%;
+    height: auto;
+}
+.aboutInfo {
+    /* flex 1 is used to make it responsive will deep dive into it */
+    flex: 1;
+    margin: 25px;
+    font-family:serif;
+}
+.heading {
+    margin-bottom: 40px;
+    letter-spacing: 5px;
+    font-family: "Playfair Display";
+
+}
+.subHeading {
+    margin-bottom: 30px;
+}
+.para1,.para2 {
+    text-align: left;
+    font-size: 25px;
+    /* margin-bottom: 15px; */
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+}
+.para2 {
+    color: grey;
+}
+/* MENU SECTION */
+.menu {
+    margin:30px 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.mImage {
+    max-width: 100%;
+    height: auto;
+}
+.menuInfo {
+    margin: 45px;
+    text-align: left;
+    flex: 1;
+   
+}
+.menuInfo h2 {
+    letter-spacing: 5px;
+
+}
+.menuInfo p {
+    color: grey;
+}
+.menuInfo h1 {
+    text-align: center;
+}
+.menuImage {
+    opacity: 0.7;
+    max-width: 100%;
+    height: auto;
+}
+.menuItems {
+    margin: 45px;
+}
+/* CONTACT SECTION */
+.contact {
+    margin: auto;
+    width: 80%;
+    text-align: left;
+}
+.contactSubHeading h3 {
+    color:#607d8b;
+}
+input {
+    margin: 20px;
+    font-size: 20px;
+    text-align: left;
+    border-style: none; 
+    outline: none;
+
+}
+.input-div {
+    border-bottom:2px solid grey;
+    margin: 15px;
+}
+.input-div:hover {
+    border:2px solid black;
+}
+ button {
+    border:2px solid black;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    margin: 20px;
+}
+#contactHeading {
+   margin: 50px 0;
+   font-size: 50px;
+   color: grey;
+}
+.ending {
+    background-color: #607d8b;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
